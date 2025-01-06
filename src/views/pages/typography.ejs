@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<!-- header -->
+<%- include('../layouts/head.ejs'); %>
+
+    <body>
+        <div class="wrapper">
+            <!-- main-header -->
+            <%- include('../layouts/main-header.ejs'); %>
+                <!-- side-bar -->
+                <%- include('../layouts/side-bar.ejs')%>
+                    <div class="main-panel">
+                        <%- include('../components/typography.ejs'); %>
+                            <!-- footer -->
+                            <%- include('../layouts/footer.ejs')%>
+                    </div>
+        </div>
+        </div>
+        <!-- Modal -->
+        <%- include('../components/common/modal.ejs')%>
+    </body>
+    <!-- script -->
+    <%- include('../layouts/script/main.ejs')%>
+        <%- include('../layouts/script/tables.ejs')%>
+
+</html>
